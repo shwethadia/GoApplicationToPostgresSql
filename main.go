@@ -12,7 +12,7 @@ func main() {
 
 	//Connect to a database
 
-	conn, err := sql.Open("pgx", "host=localhost port=5432 dbname=users user=shwetha password=1234")
+	conn, err := sql.Open("pgx", "host=localhost port=5432 dbname=users user=xyz password")
 	if err != nil {
 
 		log.Fatal(fmt.Sprintf("Unable to connect: %v\n", err))
